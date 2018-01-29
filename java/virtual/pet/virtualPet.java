@@ -10,7 +10,7 @@ public class VirtualPet {
 		hunger += 3;
 		thirst += 3;
 		boredom += 3;
-		waste +=3;
+		waste += 3;
 	}
 
 	public VirtualPet() {
@@ -28,6 +28,7 @@ public class VirtualPet {
 	public int getBoredom() {
 		return boredom;
 	}
+
 	public int getWaste() {
 		return waste;
 	}
@@ -44,9 +45,10 @@ public class VirtualPet {
 
 	public void play(int run) {
 		boredom -= run;
-		thirst+=3;
+		thirst += 3;
 		hunger++;
 	}
+
 	public void waste(int poop) {
 		waste -= poop;
 	}

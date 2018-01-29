@@ -60,7 +60,7 @@ public class VirtualPetApp {
 			}
 
 		}
-		System.out.println("\nSorry, you have let Lola die :( ");
+		System.out.println("\nSorry, you have let Lola the lion die :( ");
 		input.close();
 
 	}
